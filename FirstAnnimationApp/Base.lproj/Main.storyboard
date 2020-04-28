@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,128 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FirstAnnimationApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8U6-w0-JHn">
+                                <rect key="frame" x="90" y="318" width="235" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pav-Rh-WWy">
+                                <rect key="frame" x="90" y="377" width="235" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Plane" translatesAutoresizingMaskIntoConstraints="NO" id="1Oz-a5-IZW">
+                                <rect key="frame" x="247" y="96" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Plane" translatesAutoresizingMaskIntoConstraints="NO" id="crW-Ah-VXb">
+                                <rect key="frame" x="-75" y="94" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CpuVoltage" translatesAutoresizingMaskIntoConstraints="NO" id="cJC-3g-ifc">
+                                <rect key="frame" x="145" y="96" width="125" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="microchip-technology4" translatesAutoresizingMaskIntoConstraints="NO" id="C2L-w1-i75">
+                                <rect key="frame" x="-105" y="608" width="375" height="551"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="microchip-technology3" translatesAutoresizingMaskIntoConstraints="NO" id="XEZ-gj-fpR">
+                                <rect key="frame" x="259" y="746" width="203" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="microchip-technology2" translatesAutoresizingMaskIntoConstraints="NO" id="X6H-td-vAy">
+                                <rect key="frame" x="125" y="679" width="250" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Guest recognizer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lmg-1T-9eD">
+                                <rect key="frame" x="94" y="251" width="226" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trP-zz-1cJ">
+                                <rect key="frame" x="90" y="463" width="235" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99498134849999997" green="0.583440721" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="35"/>
+                                <state key="normal" title="LogIn">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="14x-Xj-tTx"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="detal3" translatesAutoresizingMaskIntoConstraints="NO" id="Ov9-Iv-dCJ">
+                                <rect key="frame" x="-129" y="614" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="detal2" translatesAutoresizingMaskIntoConstraints="NO" id="QVd-Rg-YRh">
+                                <rect key="frame" x="-129" y="385" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="detal1" translatesAutoresizingMaskIntoConstraints="NO" id="CwY-EK-hNJ">
+                                <rect key="frame" x="214" y="567" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76810265229871266" green="1" blue="0.94735596129602728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="centerDownTrans" destination="X6H-td-vAy" id="PFh-GG-PHe"/>
+                        <outlet property="detail1" destination="CwY-EK-hNJ" id="HuW-nL-A60"/>
+                        <outlet property="detail2" destination="QVd-Rg-YRh" id="pEJ-A7-nlt"/>
+                        <outlet property="detail3" destination="Ov9-Iv-dCJ" id="deo-Tk-CCh"/>
+                        <outlet property="leftDownTrans" destination="C2L-w1-i75" id="ssW-Ha-FEm"/>
+                        <outlet property="leftLine" destination="crW-Ah-VXb" id="luH-5A-kMW"/>
+                        <outlet property="loginButton" destination="trP-zz-1cJ" id="w0C-zA-SfB"/>
+                        <outlet property="mainCpuImg" destination="cJC-3g-ifc" id="cev-F0-Cl3"/>
+                        <outlet property="passwordField" destination="Pav-Rh-WWy" id="9dS-uq-uIj"/>
+                        <outlet property="rightDownTrans" destination="XEZ-gj-fpR" id="g6p-AJ-04t"/>
+                        <outlet property="rightLine" destination="1Oz-a5-IZW" id="eji-bt-6NU"/>
+                        <outlet property="titleLabel" destination="Lmg-1T-9eD" id="uoa-Rr-SLS"/>
+                        <outlet property="userNameField" destination="8U6-w0-JHn" id="IIv-2Q-h5V"/>
+                        <segue destination="cpz-LH-FMM" kind="show" identifier="Logined" id="RHw-MC-UDM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TJ4-0I-lhR">
+            <objects>
+                <viewController id="cpz-LH-FMM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NFU-Bm-U1d">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="9qD-7B-8Ia"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AUh-Pc-f7m"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m5F-TC-iet" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="929" y="132"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CpuVoltage" width="492" height="429.66665649414062"/>
+        <image name="Plane" width="755.66668701171875" height="72.666664123535156"/>
+        <image name="detal1" width="1440" height="732"/>
+        <image name="detal2" width="1440" height="837"/>
+        <image name="detal3" width="1440" height="837"/>
+        <image name="microchip-technology2" width="133.66667175292969" height="131.33332824707031"/>
+        <image name="microchip-technology3" width="135.33332824707031" height="135.66667175292969"/>
+        <image name="microchip-technology4" width="135.33332824707031" height="135.33332824707031"/>
+    </resources>
 </document>

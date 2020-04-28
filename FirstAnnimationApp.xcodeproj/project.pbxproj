@@ -13,6 +13,7 @@
 		D6B23F3624575C5C001572D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B23F3424575C5C001572D6 /* Main.storyboard */; };
 		D6B23F3824575C5F001572D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B23F3724575C5F001572D6 /* Assets.xcassets */; };
 		D6B23F3B24575C5F001572D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B23F3924575C5F001572D6 /* LaunchScreen.storyboard */; };
+		D6B23F4324576357001572D6 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B23F4224576357001572D6 /* Links.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D6B23F3724575C5F001572D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6B23F3A24575C5F001572D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6B23F3C24575C5F001572D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6B23F4224576357001572D6 /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				D6B23F2E24575C5C001572D6 /* AppDelegate.swift */,
 				D6B23F3024575C5C001572D6 /* SceneDelegate.swift */,
+				D6B23F4224576357001572D6 /* Links.swift */,
 				D6B23F3224575C5C001572D6 /* ViewController.swift */,
 				D6B23F3424575C5C001572D6 /* Main.storyboard */,
 				D6B23F3724575C5F001572D6 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				D6B23F3324575C5C001572D6 /* ViewController.swift in Sources */,
 				D6B23F2F24575C5C001572D6 /* AppDelegate.swift in Sources */,
 				D6B23F3124575C5C001572D6 /* SceneDelegate.swift in Sources */,
+				D6B23F4324576357001572D6 /* Links.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
